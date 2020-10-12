@@ -1,0 +1,319 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2, h3{
+    padding-bottom: 10px;
+}
+
+p{
+    margin: 10px 0;
+}
+/* End of page reset */
+/* nav-bar */
+#nav-bar{
+    background: #333;
+    overflow: auto;
+}
+.container {
+    overflow: auto;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#nav-bar a{
+    color: cadetblue;
+}
+
+#nav-bar h1{
+    float: left;
+    padding-top: 20px;
+    padding-left:20px ;
+}
+#nav-bar ul{
+    float: right;
+    list-style: none;
+}
+#nav-bar li{
+    display: block;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+#nav-bar a:hover,
+#nav-bar a.current{
+    background: #ffff;
+    color: #333;
+}
+/* End of nav bar */
+/* Showcase section */
+
+#showcase{
+    background-image: url(/Img/showcase.jpg);
+    height: 600px;
+    overflow-y: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#show-header{
+    color: lightsalmon;
+}
+.showcase-content{
+    text-align: center;
+    padding-top: 150px;
+    color:#ffff;
+}
+.showcase-content h1{
+    font-size: 100px;
+    line-height: 1em;
+}
+.showcase-content p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#btn{
+    color: #ffff;
+    background: #333;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding: 0 10px;
+}
+#btn:hover{
+    background: #ffff;
+    color: #333;
+}
+/* End of showcase Section */
+/* info-bar */
+.info-content h2{
+    font-size: 30px;
+}
+#info-text-highlight{
+    color:lightsalmon ;
+}
+#home-info-btn{
+    background: black;
+    color: #ffff;
+    padding: 10px;
+}
+#home-info-btn:hover{
+    background: #ffff;
+    color: #333;
+}
+#home-info{
+    height: 400px;
+}
+.info-img{
+    background: url(/Img/photo-1.jpg);
+    width: 50%;
+    min-height: 100%;
+    float: left;
+}
+.info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+    color: #ffff;
+    line-height: 40px;
+}
+.info-content p{
+    padding-bottom: 20px;
+}
+/* End of Info Bar */
+/* 3rd section of the home page */
+#features .box{
+    float: left;
+    padding: 50px;
+    text-align: center;
+    width: 33.3%;
+    background: #444444;
+    color: black;
+    transition: width 3s;
+}
+#css_icons{
+    font-size: 50px;
+}
+#features .box:hover{
+    background: white;
+    cursor: pointer;
+    width: 30%;
+    zoom: 1;
+    color: black;
+}
+#features #current{
+    background: lightsalmon;
+}
+#clr{
+    clear: both;
+}
+/* End of #rd Section Of Home Page */
+/* About Section */
+#info-left h1{
+    font-size: 40px;
+}
+#info-left #text-primary{
+    color: coral;
+}
+.about-info #info-left{
+    float: left;
+    min-height: 100%;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+}
+.about-info #info-right img{
+    height: 80%;
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border-radius: 50%;
+}
+#test-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 600px;
+    background-color: teal;
+    background-image: url(/Img/test-bg.jpg);
+    /* background-position: center;
+    background-repeat: repeat; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+#test-container h1{
+    color: cornsilk;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+.test1{
+    height: 150px;
+    width: 1000px;
+    background-color: coral;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 40px;;
+    opacity: 40%;
+    border-radius: 20px;
+}
+.test1 img{
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+    height: 160px;
+    width: 160px;
+    float: left;
+    border-radius: 100%;
+}
+#p1-testimony{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+}
+.test2{
+    height: 150px;
+    width: 1000px;
+    background-color:coral;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    opacity: 40%;
+    border-radius: 20px;
+}
+.test2 img{
+    height: 100%;
+    width: 20%;
+    padding: 20px;
+    height: 160px;
+    width: 160px;
+    float: left;
+    border-radius: 100%;
+}
+#p2-testimony{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+}
+/* End Of About Section */
+/* Contact Section */
+#contact-form h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+#color-highlight{
+    color: lightsalmon;
+}
+#contact-form p{
+    text-align: center;
+    font-size: 25px;;
+}
+#form-div input, textarea{
+    width: 100%;
+    border: solid black 1px;
+}
+#form-div input:hover, textarea:hover{
+    border: lightsalmon 1px solid;
+}
+#form-div{
+    padding: 40px;
+    line-height: 40px;
+}
+#sub-btn{
+    background: #333;
+    color: #ffff;
+}
+#sub-btn:hover{
+    background: lightsalmon;
+}
+#form-div input:focus, textarea:focus{
+    outline:none;
+    border-color: lightsalmon;
+}
+/* End of Contact Section */
+/* footer section */
+.footer-class{
+    background: black;
+    color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+.footer-class #back-top{
+    float: right;
+    cursor: pointer;
+}
+.footer-class p{
+    float: right;
+}
+/* End of Footer */
+/* Sample Page */
+#sample{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 80px;
+}
+#final{
+    color: lightsalmon;
+}
